@@ -1,8 +1,8 @@
-# Vision
+## Vision
 
 Ein Javascript-XML-Editor, welcher die Schemasprachen XSD und Schematron browserseitig unterstützt. Der XML-Inhalt wird in echtzeit gegen das Schema überprüft und im Fehlerfall an der entsprechenden Stelle angezeigt. Das Einfügen von neuen Elementen soll entsprechend dem Schema vorgeschlagen werden. 
 
-# Anforderungen an Umsetzung
+## Anforderungen an Umsetzung
 
 1. Ist rein in Javascript implementiert (ohne Server calls)
 2. Verwendet ausschliesslich freie Software-Bibliotheken. 
@@ -16,13 +16,13 @@ Ein Javascript-XML-Editor, welcher die Schemasprachen XSD und Schematron browser
 10. Tastenbefehle können für Element- oder Attribut-Auswahl definiert werden.
 11. HTML/CSS Templates können als Themes gewechselt werden
 
-# Vorgeschlagene Technologie
+## Vorgeschlagene Technologie
 
-## Applikation
+### Applikation
 
 - [Vue.js](https://vuejs.org/)
 
-## XML/Schema
+### XML/Schema
 
 - [node-schematron](https://www.npmjs.com/package/node-schematron) JS Lib für Schema-Validierung
 - [xsd2sch](https://github.com/Schematron/schematron/tree/master/trunk/xsd2sch) XSD zu Schematron XSL-Konvertierung. Für ein einheitliches Validations-Handling in Javascript
