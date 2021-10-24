@@ -1,3 +1,7 @@
+---
+title: publisher_editor
+---
+
 ## Vision
 
 Ein Javascript-XML-Editor, welcher die Schemasprachen XSD und Schematron browserseitig unterstützt. Der XML-Inhalt wird in echtzeit gegen das Schema überprüft und im Fehlerfall an der entsprechenden Stelle angezeigt. Das Einfügen von neuen Elementen soll entsprechend dem Schema vorgeschlagen werden. 
